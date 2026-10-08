@@ -1,0 +1,50 @@
+{
+    "title": "A grid-based world.",
+    "credits": "Created by Markus Eger (meger@ucsc.edu).",
+    "start": {"x": 0, "y": 0},
+    "exit": {"x": 2, "y": 2},
+    "rooms": {
+        "0_0": {
+            "name": "Entrance",
+            "description": "Welcome to the entrance.",
+            "items": ["cat2", "banana", "coconut"],
+            "requires": []
+        },
+        "1_0": {
+            "name": "Hallway",
+            "description": "An almost empty hallway.",
+            "items": ["bone"],
+            "requires": ["banana", "coconut", "cat2"]
+        },
+        "0_1": {
+            "name": "The sitting room",
+            "description": "Two couches next to a coffee table.",
+            "items": ["coffee", "newspaper", "key"],
+            "requires": []
+        },
+        "2_0": {
+            "name": "Main Hall",
+            "description": "The main area of the house",
+            "items": ["cat2", "vampire", "telephone", "nazar_amulet"],
+            "requires": ["key"]
+        },
+        "0_2": {
+            "name": "Kitchen",
+            "description": "A very fancy kitchen. It smells like pine cones for some reason.",
+            "items": ["cat2", "broccoli", "pie", "pretzel"],
+            "requires": ["nazar_amulet"]
+        },
+        "1_2": {
+            "name": "Pantry",
+            "description": "There should be food stored here, but you find something else instead.",
+            "items": ["giraffe", "hammer"],
+            "requires": []
+        },
+        "2_2": {
+            "name": "Treasure room",
+            "description": "You have made it to your destination! Let's count how many treasures you were able to collect on your way here.",
+            "items": [],
+            "requires": []
+        }
+    }
+}
