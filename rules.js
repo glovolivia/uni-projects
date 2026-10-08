@@ -85,13 +85,17 @@ class Room extends Scene {
         var roomData = this.engine.storyData.rooms[x + "_" + y];
         var key = roomData.requires;
         var lock = true;
+        var count = 0
         if (key.length > 0) {
             for (var i_tem of key) {
                 console.log(i_tem);
                 for (var p_item in player.items) {
                     if (p_item == i_tem) {
-                        lock = false;
+                        count += 1;
                     }
+                }
+                if (count == key.length) {
+                    lock = false;
                 }
             }
         } else {
