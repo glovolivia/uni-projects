@@ -10,7 +10,7 @@ This project focues on developing our knowladge of JavaScript and familiarizes u
 
 ### Required Mechanics 
 
-- [ x ] Lock-and-key mechanic 
+- [x] Lock-and-key mechanic 
 - [ ] Item specific interactions 
 - [ ] Scoring system
 
