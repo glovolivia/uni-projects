@@ -13,6 +13,7 @@ class Start extends Scene {
 class Room extends Scene {
     enter(x,y,player)
     {
+        this.inventory = player.items;
         this.x = x;
         this.y = y;
         var roomData = this.engine.storyData.rooms[x + "_" + y];
@@ -50,7 +51,7 @@ class Room extends Scene {
         }
         else
         {
-            this.engine.addInteraction("something", "x", "y");
+            //this.engine.addInteraction("something", "x", "y");
             // navigation cells come in a 3x3 grid
             // row 1
             this.engine.addTextCell();
@@ -79,6 +80,13 @@ class Room extends Scene {
                 this.engine.addTextCell();
             this.engine.addTextCell();
         }
+        var inventory = "Inventory: ";
+
+        for (var item in player.items) {
+        inventory += this.engine.itemString(item) + " x" + player.items[item] + " ";
+        }
+        this.engine.show(inventory);
+
         this.engine.transition();
     }
     handleNavigation(x,y,player) {
@@ -112,31 +120,25 @@ class Room extends Scene {
 
     handleInteraction(a,b)
     {
-        if (a == "poop") {
-            this.engine.show("You pooped");
-        }
-        if (a == "puppy hair") {
-            this.engine.show("The wags its tail, it's happy!");
-        }
-        if (a == "Wyatt") {
-            this.engine.show("The fog is coming");
-        }
+
         if (a == "egg") {
             const result = Math.random() < 0.5 ? "You won" : "You lost";
             this.engine.show(result);
-        }
-        if (a == "rainwater barrel") {
-            this.engine.show("You get in and splash the water around")
+            if (result == "You lost") {
+                this.inventory["hatching_chick"] = 1;
+                delete this.inventory["egg"];
+            }
+        
         }
     }
 
     interactions(inventory, roomItems)
     {
-        this.engine.addInteraction("Does your house catch rain?", "rainwater barrel")
-        this.engine.addInteraction("Pet the puppy", "puppy hair")
-        this.engine.addInteraction("Imaginary friend button", "Wyatt")
-        this.engine.addInteraction("Eierpecken", "egg")
-        this.engine.addInteraction("Go to the restroom", "poop")
+        if (roomItems.includes("egg")) {
+         this.engine.addInteraction("Eierpecken", "egg")
+        }
+
+        if (roomItems.includes(""))
     }
 
     endGame(player)

@@ -7,7 +7,7 @@
         "0_0": {
             "name": "Entrance",
             "description": "Welcome to the entrance.",
-            "items": ["cat2", "banana", "coconut"],
+            "items": ["cat2", "banana", "coconut", "egg"],
             "requires": []
         },
         "1_0": {
