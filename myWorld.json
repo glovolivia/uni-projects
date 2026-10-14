@@ -7,19 +7,19 @@
         "0_0": {
             "name": "Entrance",
             "description": "Welcome to the entrance.",
-            "items": ["cat2", "banana", "coconut", "egg"],
+            "items": ["cat2", "banana", "coconut", "egg", "boot", "cyclone", "tennis"],
             "requires": []
         },
         "1_0": {
             "name": "Hallway",
             "description": "An almost empty hallway.",
-            "items": ["bone"],
+            "items": ["bone", "dog"],
             "requires": ["banana", "coconut", "cat2"]
         },
         "0_1": {
             "name": "The sitting room",
             "description": "Two couches next to a coffee table.",
-            "items": ["coffee", "newspaper", "key"],
+            "items": ["coffee", "newspaper", "key", "hair_pick"],
             "requires": []
         },
         "2_0": {
