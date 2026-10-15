@@ -73,7 +73,7 @@
             "name": "Hogwarts school of witchcraft and wizadry",
             "description": "After all these years... you finally made it to hogwarts! Maybe you aren't 11 anymore, but it's still fun!",
             "items": ["cyclone", "carrot", "zap"],
-            "requires": ["boot"]
+            "requires": ["tornado"]
         },
         "6_1": {
             "name": "Dragon's Lair",
