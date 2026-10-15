@@ -17,7 +17,15 @@ This project focuses on developing our knowladge of JavaScript and familiarizes 
 **Data collection methods**: observation, think-alound, semi-formal interview\
 **Average playtime**: 30 minutes\
 
-#### Run
+#### Runnning Instructions
+
+**Play locally**: 
+    1. Download and extract project files
+    2. Open Terminal and navigate to project directory
+    3. Run: python3 -m http.server 8000
+    4. Open Open http://localhost:8000 in your browser.
+
+Python3 is needed for a local server. No additional libraries are required.
 
 ### Required Mechanics 
 
