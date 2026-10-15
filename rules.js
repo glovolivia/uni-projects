@@ -53,12 +53,12 @@ class Companion extends GameWorldItems {
 
             this.randomMessage = messages[Math.floor(Math.random() * messages.length)]
 
-            if (Math.random() < 0.2) {
+            if (Math.random() < 0.1) {
                 this.randomMessage = this.name + " is rolling in something disgusting, you need to groom them";
             }
 
             this.pet = false;
-            if (Math.random() < 0.1) {
+            if (Math.random() < 0.09) {
                 this.pet = true;
             }
 
