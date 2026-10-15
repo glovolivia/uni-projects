@@ -385,7 +385,7 @@ class Room extends Scene {
 
             this.engine.show("You have created a portkey, you can now use it at any point in the game.");
             this.engine.show("")
-            this.engine.show("Unfortunately, you are not a very experienced wizard, so there's no telling when the portkey takes you, will you risk it?");
+            this.engine.show("Unfortunately, you are not a very experienced wizard, so there's no telling where the portkey takes you, will you risk it?");
             this.engine.addInteraction("Use the portkey", "teleport")
         }
 
