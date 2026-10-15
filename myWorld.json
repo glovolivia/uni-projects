@@ -1,49 +1,189 @@
 {
-    "title": "A grid-based world.",
-    "credits": "Created by Markus Eger (meger@ucsc.edu).",
+    "title": "Fantasy Chaos: The Labirynth of Discordia",
+    "credits": "",
     "start": {"x": 0, "y": 0},
-    "exit": {"x": 2, "y": 2},
+    "exit": {"x": 4, "y": 7},
     "rooms": {
         "0_0": {
-            "name": "Entrance",
-            "description": "Welcome to the entrance.",
-            "items": ["cat2", "banana", "coconut", "egg", "boot", "cyclone", "tennis"],
-            "requires": []
+            "name": "The Chaos of the Void Welcomes You",
+            "description": "Welcome to the world of chaos, the dystopian reality of playing a game, where narrative is only an afterthought. Don't expect anything, and expect everything at the same time",
+            "items": ["face_with_spiral_eyes"],
+            "requires": [],
+            "bright": true
         },
         "1_0": {
-            "name": "Hallway",
-            "description": "An almost empty hallway.",
-            "items": ["bone", "dog"],
-            "requires": ["banana", "coconut", "cat2"]
-        },
-        "0_1": {
-            "name": "The sitting room",
-            "description": "Two couches next to a coffee table.",
-            "items": ["coffee", "newspaper", "key", "hair_pick"],
+            "name": "The Eye of a Tornado",
+            "description": "You enter a tornado because you thought it would be like a rollercoster from Temu, it wasn't",
+            "items": ["tornado"],
             "requires": []
         },
         "2_0": {
-            "name": "Main Hall",
-            "description": "The main area of the house",
-            "items": ["cat2", "vampire", "telephone", "nazar_amulet"],
-            "requires": ["key"]
+            "name": "Ladies Parlor",
+            "description": "You can get your hair done, your nails done, a facial done, or just grab a hair comb, that's fine too",
+            "items": ["hair_pick"],
+            "requires": []
+        },
+        "4_0": {
+            "name": "Eternal Springs Waterfall",
+            "description": "The droplets touch your face, how refreshing",
+            "items": ["sweat_drops"],
+            "requires": []
+        },
+        "5_0": {
+            "name": "Dark Cave",
+            "description": "Well, this is a dark dark cave",
+            "items": ["bat"],
+            "requires": ["flashlight"],
+            "bright" : false
+        },
+        "6_0": {
+            "name": "Mysterious Cavern",
+            "description": "A very tight space, not recommended for anyone with claustrophobia",
+            "items": ["zap"],
+            "requires": [],
+            "bright" : false
+        },
+        "0_1": {
+            "name": "Tennis Courts",
+            "description": "You see Iga Świątek so you steal one of her balls, and a tennis racket. But why is there acid here?",
+            "items": ["tennis", "badminton", "probing_cane"],
+            "requires": []
         },
         "0_2": {
-            "name": "Kitchen",
-            "description": "A very fancy kitchen. It smells like pine cones for some reason.",
-            "items": ["cat2", "broccoli", "pie", "pretzel"],
-            "requires": ["nazar_amulet"]
+            "name": "Alchemist's Lab",
+            "description": "So they did manage to make gold in the end, cool",
+            "items": ["yellow_square", "flashlight", "magic_wand"],
+            "requires": []
+        },
+        "0_5": {
+            "name": "A Hidden Mineshaft",
+            "description": "If you've played minecraft you know better than to go down there",
+            "items": ["railway_track", "carrot"],
+            "requires": ["flashlight"],
+            "bright": false
+        },
+        "0_6": {
+            "name": "The Meat Room",
+            "description": "So much meat, EVERYWHERE",
+            "items": ["cut_of_meat", "meat_on_bone", "cut_of_meat", "meat_on_bone", "cut_of_meat", "meat_on_bone", "cut_of_meat", "meat_on_bone", "cut_of_meat", "meat_on_bone"],
+            "requires": [],
+            "bright" : false
+        },
+        "4_1": {
+            "name": "Hogwarts school of witchcraft and wizadry",
+            "description": "After all these years... you finally made it to hogwarts! Maybe you aren't 11 anymore, but it's still fun!",
+            "items": ["cyclone", "carrot", "zap"],
+            "requires": ["boot"]
+        },
+        "6_1": {
+            "name": "Dragon's Lair",
+            "description": "You enter thorough a narrow opening and you see IT. A mountain of gold and riches. Is it guarded by a dragon?",
+            "items": ["dragon_face", "probing_cane"],
+            "requires": [],
+            "bright" : false
         },
         "1_2": {
-            "name": "Pantry",
-            "description": "There should be food stored here, but you find something else instead.",
-            "items": ["giraffe", "hammer"],
+            "name": "The Duck Government Headquarters",
+            "description": "What the duck?!",
+            "items": ["lemon", "baby_chick", "duck"],
+            "requires": []
+        },
+        "1_3": {
+            "name": "A tiny backyard",
+            "description": "You see the cutest animal on this planet hiding in the corner, maybe you could help it get out of it's shell?",
+            "items": ["dog"],
+            "requires": []
+        },
+        "1_5": {
+            "name": "The Spaghetti Dimension",
+            "description": "This is some fine loooooooooooooooooooooooooooooooooooong pasta",
+            "items": ["hot_pepper", "hot_pepper", "hot_pepper"],
+            "requires": []
+        },
+        "2_5": {
+            "name": "Cow Shelter",
+            "description": "Ever wondered where beef comes from? Well wonder no more. Also here's some milk",
+            "items": ["cut_of_meat", "cut_of_meat", "cut_of_meat", "milk", "milk", "milk"],
+            "requires": []
+        },
+        "3_5": {
+            "name": "Chicken's Coup",
+            "description": "Be careful, you can't trust chickens. Have you not seen chicken invaders? Fool!",
+            "items": ["egg", "egg", "egg", "egg", "egg"],
+            "requires": []
+        }, 
+        "4_3": {
+            "name": "Pony World",
+            "description": "My Little Pony, My Little Pony, AAA AAA AAAHA, My Little Pony, I used to wonder what friendship could be, My Little Pony, until you all shared it's magic with me, big adventure, tons of fun, a beautiful heart, faithful and strong, sharing kindness, It's an easy feat, and magic makes it all complete, you have My Little Pony, AAAAAAh, do you know you're all my very best FRIENDSSSSSS. Yes, yes I did, I just did that. And I'm proud",
+            "items": ["horse"],
+            "requires": []
+        },
+        "5_3": {
+            "name": "Myriad's Paddocks",
+            "description": "You turn a corner and see a beautiful, whimsical barn full of horses, unicorns and other creatures. As you approach the property entrance someone appears from behind the stables 'Do you love horses?' asks a slightly obsessed, covered in hay, and oddly happy horse girl",
+            "items": ["carousel_horse", "apple"],
+            "requires": []
+        },
+        "4_4": {
+            "name": "Thieves Tavern",
+            "description": "Who doesn't like a good, cold pint of beer? Just maybe the location isn't convenient, balancing at the edge of a cliff... you better have a way to fly up out of here",
+            "items": ["bottle_with_popping_cork", "probing_cane", "beer"],
+            "requires": []
+        },
+        "4_5": {
+            "name": "Shrieking Shack",
+            "description": "It's meant to be the most haunted building in here, did I mention that?",
+            "items": ["ghost"],
+            "requires": [],
+            "requiresMount": "dragon_face"
+        },
+        "4_6": {
+            "name": "Ice Palace",
+            "description": "It is cold.. like Centarl Eurpoe in Janury... or Syberia, that works too ",
+            "items": ["ice_cube", "snowflake"],
+            "requires": []
+        },
+        "4_7": {
+            "name": "Finally free!",
+            "description": "Well, you surived. This has been a pretty wild ride, I'll give you that... I guess I need to practice being even more chaotic... Well, congrats, I guess...",
+            "items": ["first_place"],
             "requires": []
         },
         "2_2": {
-            "name": "Treasure room",
-            "description": "You have made it to your destination! Let's count how many treasures you were able to collect on your way here.",
-            "items": [],
+            "name": "Abandoned Cobbler's Cove",
+            "description": "This place smelles of dust, and has plenty of spiderwebs. Whoever worked here must have been in a rush, or in a lot of trouble when they were leaving",
+            "items": ["boot", "battery"],
+            "requires": []
+        },
+        "3_2": {
+            "name": "Sahara Desert",
+            "description": "I know I manifested being hot, but this is not what I meant",
+            "items": ["hourglass_flowing_sand"],
+            "requires": []
+        },
+        "4_2": {
+            "name": "River",
+            "description": "A refreshing change after the boiling heat of Sahara dessert, wait... does this water flow both directions? Someone needs to study that!",
+            "items": ["sweat_drops", "sweat_drops", "sweat_drops"],
+            "requires": []
+        },
+        "6_3": {
+            "name": "Magic Hills Trail",
+            "description": "You enjoy a nice, relaxing trailride on your horse. This room is normal, right? ",
+            "items": ["sun"],
+            "requires": [],
+            "requiresMount": "horse"
+        },
+        "5_5": {
+            "name": "Chocolate Rivers",
+            "description": "so Willy Wonka is real after all?!",
+            "items": ["chocolate_bar"],
+            "requires": []
+        },
+        "6_5": {
+            "name": "Dessert Room",
+            "description": "The room is filled to the brim with different sweats and candies, THIS IS HEAVEN",
+            "items": ["chocolate_bar", "candy", "lollipop", "apple", "shaved_ice", "ice_cream", "doughnut"],
             "requires": []
         }
     }
