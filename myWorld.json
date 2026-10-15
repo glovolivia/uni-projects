@@ -1,5 +1,5 @@
 {
-    "title": "Fantasy Chaos: The Labirynth of Discordia",
+    "title": "Fantasy Chaos: The Labyrinth of Discordia",
     "credits": "",
     "start": {"x": 0, "y": 0},
     "exit": {"x": 4, "y": 7},
@@ -13,7 +13,7 @@
         },
         "1_0": {
             "name": "The Eye of a Tornado",
-            "description": "You enter a tornado because you thought it would be like a rollercoster from Temu, it wasn't",
+            "description": "You enter a tornado because you thought it would be like a rollercoaster from Temu, it wasn't",
             "items": ["tornado"],
             "requires": []
         },
@@ -139,19 +139,19 @@
         },
         "4_6": {
             "name": "Ice Palace",
-            "description": "It is cold.. like Centarl Eurpoe in Janury... or Syberia, that works too ",
+            "description": "It is cold.. like Central Europe in January... or Siberia, that works too ",
             "items": ["ice_cube", "snowflake"],
             "requires": []
         },
         "4_7": {
             "name": "Finally free!",
-            "description": "Well, you surived. This has been a pretty wild ride, I'll give you that... I guess I need to practice being even more chaotic... Well, congrats, I guess...",
+            "description": "Well, you survived. This has been a pretty wild ride, I'll give you that... I guess I need to practice being even more chaotic... Well, congrats, I guess...",
             "items": ["first_place"],
             "requires": []
         },
         "2_2": {
             "name": "Abandoned Cobbler's Cove",
-            "description": "This place smelles of dust, and has plenty of spiderwebs. Whoever worked here must have been in a rush, or in a lot of trouble when they were leaving",
+            "description": "This place smells of dust, and has plenty of spiderwebs. Whoever worked here must have been in a rush, or in a lot of trouble when they were leaving",
             "items": ["boot", "battery"],
             "requires": []
         },

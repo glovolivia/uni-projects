@@ -35,7 +35,7 @@ class Companion extends GameWorldItems {
                 this.name + " is judging your ability to solve this puzzle",
                 this.name + " wants a cookie",
                 this.name + " found something to eat in the corner, you try to see what it was but it's to late",
-                this.name + " thinks you are completly lost",
+                this.name + " thinks you are completely lost",
                 this.name + " just barked",
                 this.name + " wants to cuddle with you",
                 this.name + " found a stick!",
@@ -385,7 +385,7 @@ class Room extends Scene {
 
             this.engine.show("You have created a portkey, you can now use it at any point in the game.");
             this.engine.show("")
-            this.engine.show("Unfortunetly, you are not a very experienced wizard, so there's no telling when the portkey takes you, will you risk it?");
+            this.engine.show("Unfortunately, you are not a very experienced wizard, so there's no telling when the portkey takes you, will you risk it?");
             this.engine.addInteraction("Use the portkey", "teleport")
         }
 
@@ -450,10 +450,10 @@ class Room extends Scene {
             this.lightOn(roomData);
         }
 
-        //battery change (always resores to full power)
+        //battery change (always restores to full power)
         if (a == "battery") {
             this.torch.battery = 5;
-            this.engine.show('<i>' + "You have resored your flashlight battery to 100%" + '</i>');
+            this.engine.show('<i>' + "You have restored your flashlight battery to 100%" + '</i>');
             this.inventory["battery"] -= 1;
             if (this.inventory["battery"] == 0) {
                 delete this.inventory["battery"];
@@ -715,7 +715,7 @@ class Room extends Scene {
         this.engine.show(this.engine.storyData.credits);
 
         if (score == 1859) {
-            this.engine.show("Achivement unlocked: ");
+            this.engine.show("Achievement unlocked: ");
             this.engine.show("Pick your battles! Georg Pick approves.");
             // For anyone interested, Georg Pick, born in 1859 developed the Pick's Theorem,
             // that "gives a simple formula for calculating the area of a lattice polygon".
