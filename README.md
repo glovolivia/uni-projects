@@ -11,15 +11,15 @@ This project focues on developing our knowladge of JavaScript and familiarizes u
 ### Required Mechanics 
 
 - [x] Lock-and-key mechanic 
-- [ ] Item specific interactions 
-- [ ] Scoring system
+- [x] Item specific interactions 
+- [x] Scoring system
 
 #### Bonus mechanics 
 
-- [ ] get lamp mechanic 
-- [ ] complex puzzles
-- [ ] complex rooms
-- [ ] Item system
+- [x] get lamp mechanic 
+- [x] complex puzzles
+- [x] complex rooms
+- [x] Item system
 
 ### Implementation details
 
