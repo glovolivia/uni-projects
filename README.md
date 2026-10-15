@@ -1,8 +1,11 @@
 # CMPM 120 Project 1 Grid-based World
 
-Student: **Oliwia Glowczynska**\ 
+Student: **Oliwia Glowczynska**\
+
 ID: **2157181**\
+
 Date: **October 2026**\
+
 
 
 **Play the Game**: [LIVE DEMO](https://glovolivia.github.io/uni-projects/?fbclid=IwY2xjawU9Qg5leHRuA2FlbQIxMABwZG9mBWJyaWQRMVRqcXRPa2dGNGp4aWlZTWhzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeMuqDgzG3pG0u-RYPkEBKON3N1bhcABkxS9JOMxC9JzAj9K42xawjWBE4V6o_aem_WqaNPmGXnx1n9H2bfe8SDQ)
