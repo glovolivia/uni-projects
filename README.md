@@ -10,15 +10,15 @@ Date: **October 2026**<br>
 
 ### Description
 
-This project focuses on developing our knowladge of JavaScript and familiarizes us with JSON and data-driven programming. It is a text based game with interactable buttons that allowes the player to explore the secrets of a mysterious chaotic world. Please keep in mind that "this is a programming class" (~Dr. Marcus Eger), the narrtive of this game is slightly below the standards of industry. However, I hope the mechanics can impress you enough, to enjoy this game, as if the narrative was crafted with far greater respect (that it rightfully deserves).
+This project focuses on developing our knowledge of JavaScript and familiarizes us with JSON and data-driven programming. It is a text based game with intractable buttons that allowed the player to explore the secrets of a mysterious chaotic world. Please keep in mind that "this is a programming class" (~Dr. Marcus Eger), the narrative of this game is slightly below the standards of industry. However, I hope the mechanics can impress you enough, to enjoy this game, as if the narrative was crafted with far greater respect (that it rightfully deserves).
 
 #### Playtest
 
 **Playtest sample size**: 10 players, ranging from "not familiar with games" to "experienced gamer"<br>
-**Data collection methods**: observation, think-alound, semi-formal interview<br>
+**Data collection methods**: observation, think-aloud, semi-formal interview<br>
 **Average playtime**: 30 minutes<br>
 
-#### Runnning Instructions
+#### Running Instructions
 
 **Play locally**: <br>
     1. Download and extract project files<br>
@@ -45,27 +45,27 @@ Python3 is needed for a local server. No additional libraries are required.
 
 - **Lock-and-key mechanic** is implemented in handleNavigation function. It introduces a ***lock*** variable initialized to ***true***, and ***count*** variable initialized to ***0***, then loops over the required items from the JSON file, if all of the items are in the players inventory (count check), the lock variable is set to false, and the player can proceed. Otherwise, it displays a message and sets player location back to the room they are currently in. 
 
-- **Eierpecken** is implemented using the Math.random fuction, if the user losses, the egg is deleted from the inventory and is replaced with the ***hatching_chick*** to indicate the loss, otherwise player recives a bonus. 
+- **Eierpecken** is implemented using the Math.random function, if the user losses, the egg is deleted from the inventory and is replaced with the ***hatching_chick*** to indicate the loss, otherwise player receives a bonus. 
 
-- **Mounts** defined as a subclass, player can name, feed and ride them. Some specific ones moght be required to enter rooms. Mounts can be switched to enter a certain room, not accesible otherwise.
+- **Mounts** defined as a subclass, player can name, feed and ride them. Some specific ones might be required to enter rooms. Mounts can be switched to enter a certain room, not accessible otherwise.
 
 - **Portkey** teleports the player to a random tile on the map
 
 - **Companions** stay with you during your adventure. Player can adopt them, name them and groom them, when they get dirty, by using a comb. 
 A companion adds liveliness to the game. Currently implemented one companion: a dog.
 
-- **Flashlight** lights the dark rooms, but uses fuel (batterry) charge, every step you take with it. The player needs to manage resources to
+- **Flashlight** lights the dark rooms, but uses fuel (battery) charge, every step you take with it. The player needs to manage resources to
 avoid getting stuck in a dark room, (if so happens, the game is lost and they have to start over)
 
 - **Craftables** are objects players can craft using recipes, the implementation of crafting is simple - when required objects are available
-in the invenory, a button appears and they can be crafted
+in the inventory, a button appears and they can be crafted
 
 - **Scoring** is loosely based on Pick's Theorem, more so on the formula with substituted variables. 
 Score = number of items + (number of steps / 2) - 1 + player bonus. Player earns bonus points by interacting wih the game and game objects,
 and is not always aware of having earned that bonus. Some states or interaction may carry negative bonus.
 
-- **Complex rooms** implemented using item restrictions, mount requirments, brightness feature and map design. ***this has been thoroughly playtested, and further complications cause frustrution in players***
+- **Complex rooms** implemented using item restrictions, mount requirements, brightness feature and map design. ***this has been thoroughly playtested, and further complications cause frustration in players***
 
-- **Complex puzzles** contain different properties defined in the JSON file, properties like mount requirments, room brightness, rooms that require specific items in inventory. Some rooms introduce unique interactions.
+- **Complex puzzles** contain different properties defined in the JSON file, properties like mount requirements, room brightness, rooms that require specific items in inventory. Some rooms introduce unique interactions.
 
 - **Item System** supports collecting, storing, crafting, consuming and using items. Crafting costs items in turn for creating something new. Certain items can be fed to mounts, act as a key to unlock rooms or allow interaction with game objects.
