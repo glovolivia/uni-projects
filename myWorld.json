@@ -58,7 +58,7 @@
         "0_5": {
             "name": "A Hidden Mineshaft",
             "description": "If you've played minecraft you know better than to go down there",
-            "items": ["railway_track", "carrot"],
+            "items": ["railway_track", "carrot", "probing_cane"],
             "requires": ["flashlight"],
             "bright": false
         },
@@ -177,7 +177,7 @@
         "5_5": {
             "name": "Chocolate Rivers",
             "description": "so Willy Wonka is real after all?!",
-            "items": ["chocolate_bar"],
+            "items": ["chocolate_bar", "zap"],
             "requires": []
         },
         "6_5": {
