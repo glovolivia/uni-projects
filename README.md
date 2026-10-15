@@ -1,10 +1,8 @@
 # CMPM 120 Project 1 Grid-based World
 
-Student: **Oliwia Glowczynska**\
-
-ID: **2157181**\
-
-Date: **October 2026**\
+Student: **Oliwia Glowczynska**<br>
+ID: **2157181**<br>
+Date: **October 2026**<br>
 
 
 
@@ -16,17 +14,17 @@ This project focuses on developing our knowladge of JavaScript and familiarizes 
 
 #### Playtest
 
-**Playtest sample size**: 10 players, ranging from "not familiar with games" to "experienced gamer"\
-**Data collection methods**: observation, think-alound, semi-formal interview\
-**Average playtime**: 30 minutes\
+**Playtest sample size**: 10 players, ranging from "not familiar with games" to "experienced gamer"<br>
+**Data collection methods**: observation, think-alound, semi-formal interview<br>
+**Average playtime**: 30 minutes<br>
 
 #### Runnning Instructions
 
-**Play locally**: 
-    1. Download and extract project files
-    2. Open Terminal and navigate to project directory
-    3. Run: python3 -m http.server 8000
-    4. Open Open http://localhost:8000 in your browser.
+**Play locally**: <br>
+    1. Download and extract project files<br>
+    2. Open Terminal and navigate to project directory<br>
+    3. Run: python3 -m http.server 8000<br>
+    4. Open Open http://localhost:8000 in your browser.<br>
 
 Python3 is needed for a local server. No additional libraries are required.
 
