@@ -283,8 +283,7 @@ class Room extends Scene {
 
     //handles "light" on flashlight on
     lightOn(roomData) {
-        if(roomData.bright != null) {
-            if (!roomData.bright && !this.torch.isOn) { //false = dark
+            if (roomData.bright != null && !roomData.bright && !this.torch.isOn) { //false = dark
                 document.body.style.backgroundColor = "#080808";
                 document.body.style.color = "#121212f3";
                 this.engine.show('<span style="color: #ffff; font-style: bold;">' + "You need a flashlight to find an exit" + '</span>');
@@ -294,7 +293,7 @@ class Room extends Scene {
                 document.body.style.color = "#4A4A4A";
                 this.engine.actionsGridContainer.style.visibility = "visible";
             }
-        }
+        
     }
 
     //lock mechanism
