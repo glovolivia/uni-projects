@@ -26,7 +26,7 @@
         "4_0": {
             "name": "Eternal Springs Waterfall",
             "description": "The droplets touch your face, how refreshing",
-            "items": ["sweat_drops"],
+            "items": ["sweat_drops", "lemon"],
             "requires": []
         },
         "5_0": {
@@ -39,7 +39,7 @@
         "6_0": {
             "name": "Mysterious Cavern",
             "description": "A very tight space, not recommended for anyone with claustrophobia",
-            "items": ["zap"],
+            "items": ["zap", "ice_cube"],
             "requires": [],
             "bright" : false
         },
@@ -58,7 +58,7 @@
         "0_5": {
             "name": "A Hidden Mineshaft",
             "description": "If you've played minecraft you know better than to go down there",
-            "items": ["railway_track", "carrot", "probing_cane"],
+            "items": ["railway_track", "carrot", "bread", "probing_cane"],
             "requires": ["flashlight"],
             "bright": false
         },
@@ -78,7 +78,7 @@
         "6_1": {
             "name": "Dragon's Lair",
             "description": "You enter thorough a narrow opening and you see IT. A mountain of gold and riches. Is it guarded by a dragon?",
-            "items": ["dragon_face", "probing_cane"],
+            "items": ["dragon_face", "probing_cane", "bottle_with_popping_cork"],
             "requires": [],
             "bright" : false
         },
@@ -121,7 +121,7 @@
         "5_3": {
             "name": "Myriad's Paddocks",
             "description": "You turn a corner and see a beautiful, whimsical barn full of horses, unicorns and other creatures. As you approach the property entrance someone appears from behind the stables 'Do you love horses?' asks a slightly obsessed, covered in hay, and oddly happy horse girl",
-            "items": ["carousel_horse", "apple"],
+            "items": ["carousel_horse", "apple", "bread", "carrot"],
             "requires": []
         },
         "4_4": {

@@ -277,6 +277,7 @@ class Room extends Scene {
         if (this.torch.battery == 0) {
             this.torch.isOn = false;
             this.engine.show('<span style="color: #FF0000; font-style: italic;">' + "You run out of battery" + '</span>');
+            this.player.bonus -= 10;
         }
         
     }
@@ -409,6 +410,7 @@ class Room extends Scene {
             if ("hair_pick" in this.inventory) {
                 this.engine.show("Now " + this.player.companion.name + " looks great again!")
                 this.player.companion.needsGrooming = false;
+                this.player.bonus += 3;
             } else {
                 this.engine.show('<span style="color: #FF0000; font-style: italic;">' + "You can't do this without a comb" + '</span>')
 
@@ -533,8 +535,10 @@ class Room extends Scene {
             }
             if (!this.player.companion) {
                 this.engine.show("<i>You enjoy your meal alone</i>");
+                this.player.bonus += 20;
             } else {
                 this.engine.show("<i>"+"You share your meal with " + this.player.companion.name + ", they are grateful and very happy!");
+                this.player.bonus += 50;
             }
         }
 
@@ -549,8 +553,10 @@ class Room extends Scene {
             this.engine.show("........")
             if(!this.player.companion) {
                 this.engine.show("<i>[You passed out in the corner]<i>");
+                this.player.bonus -= 20;
             } else {
                 this.engine.show("<i>" + "[You passed out in the corner, you wake up and see that " + this.player.companion.name + "put their little head on your thighs]");
+                this.player.bonus -= 10;
             }
         }
 
