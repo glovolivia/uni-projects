@@ -271,7 +271,7 @@ class Room extends Scene {
     torchMechanic(roomData) {
         if (this.torch.isOn) {
             this.torch.battery -= 1;
-            this.engine.show('<i>' + this.torch.battery*20 + "% left" + '<i>');
+            this.engine.show('<span style="color: #FF0000; font-style: italic;">' + "[Flashlight] " + this.torch.battery*20 + "% left" + '</span>');
         }
 
         if (this.torch.battery == 0) {
@@ -458,7 +458,10 @@ class Room extends Scene {
             if (this.inventory["battery"] == 0) {
                 delete this.inventory["battery"];
             }
-            this.engine.addInteraction("[Flashlight] Turn On", "flashON");
+
+            if(this.torch.isOn) {
+                this.engine.addInteraction("[Flashlight] Turn On", "flashON");
+            }
         }
 
         if (a == "dismount") {
@@ -555,7 +558,7 @@ class Room extends Scene {
                 this.engine.show("<i>[You passed out in the corner]<i>");
                 this.player.bonus -= 20;
             } else {
-                this.engine.show("<i>" + "[You passed out in the corner, you wake up and see that " + this.player.companion.name + "put their little head on your thighs]");
+                this.engine.show("<i>" + "[You passed out in the corner, you wake up and see that " + this.player.companion.name + " put their little head on your thighs]");
                 this.player.bonus -= 10;
             }
         }
