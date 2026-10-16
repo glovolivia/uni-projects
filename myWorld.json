@@ -14,13 +14,13 @@
         "1_0": {
             "name": "The Eye of a Tornado",
             "description": "You enter a tornado because you thought it would be like a rollercoaster from Temu, it wasn't",
-            "items": ["tornado"],
+            "items": ["tornado", "zap"],
             "requires": []
         },
         "2_0": {
             "name": "Ladies Parlor",
             "description": "You can get your hair done, your nails done, a facial done, or just grab a hair comb, that's fine too",
-            "items": ["hair_pick"],
+            "items": ["hair_pick", "probing_cane"],
             "requires": []
         },
         "4_0": {
@@ -33,7 +33,7 @@
             "name": "Dark Cave",
             "description": "Well, this is a dark dark cave",
             "items": ["bat"],
-            "requires": ["flashlight"],
+            "requires": ["flashlight", "battery"],
             "bright" : false
         },
         "6_0": {
@@ -59,7 +59,7 @@
             "name": "A Hidden Mineshaft",
             "description": "If you've played minecraft you know better than to go down there",
             "items": ["railway_track", "carrot", "bread", "probing_cane"],
-            "requires": ["flashlight"],
+            "requires": ["flashlight", "battery"],
             "bright": false
         },
         "0_6": {
